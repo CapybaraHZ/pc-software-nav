@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>电脑软件下载导航 · 远程工具与常用软件</title>
-<meta name="description" content="ToDesk、UU远程等远程控制工具，以及微信、QQ、WPS 等常用软件的官方下载入口，含 Windows 与 macOS 双平台链接。">
+<title>电脑软件下载直达 · 远程工具与常用软件</title>
+<meta name="description" content="ToDesk、UU远程等远程控制工具，以及微信、QQ、WPS 等常用软件的下载入口，Windows 与 macOS 双平台，点击即下载。">
 <style>
   :root{
     --bg:#ffffff;
@@ -107,6 +107,7 @@
     display:flex;
     align-items:center;
     justify-content:center;
+    gap:3px;
     height:38px;
     padding:0 10px;
     border:1px solid var(--line);
@@ -127,6 +128,11 @@
     border-color:var(--btn-bg);
     color:var(--btn-fg);
   }
+  .btn .ext{
+    font-size:10px;
+    opacity:.55;
+    transform:translateY(-1px);
+  }
   footer{
     margin-top:56px;
     padding-top:18px;
@@ -135,7 +141,6 @@
     font-size:12px;
     line-height:1.7;
   }
-  footer a{color:var(--muted)}
   @media (max-width:560px){
     .wrap{padding:36px 16px 56px}
     header{margin-bottom:34px}
@@ -150,8 +155,8 @@
 <div class="wrap">
 
   <header>
-    <h1>电脑软件下载导航</h1>
-    <p class="sub">远程工具与常用软件，全部指向官方下载地址 · 更新于 2026-11-13</p>
+    <h1>电脑软件下载直达</h1>
+    <p class="sub">点按钮就开始下载安装包 · Windows / macOS 双平台 · 更新于 2026-11-13</p>
   </header>
 
   <section>
@@ -169,16 +174,16 @@
       <div class="item">
         <div class="meta"><span class="name">网易 UU 远程</span><span class="tag">免费 · 4K</span></div>
         <div class="dl">
-          <a class="btn" href="https://uuyc.163.com/download/" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://uuyc.163.com/download/" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://uuyc.163.com/download/" target="_blank" rel="noopener" data-os="win">Windows<span class="ext">↗</span></a>
+          <a class="btn" href="https://uuyc.163.com/download/" target="_blank" rel="noopener" data-os="mac">macOS<span class="ext">↗</span></a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">向日葵</span><span class="tag">远程协助</span></div>
         <div class="dl">
-          <a class="btn" href="https://sunlogin.oray.com/download" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://sunlogin.oray.com/download" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://sunlogin.oray.com/download" target="_blank" rel="noopener" data-os="win">Windows<span class="ext">↗</span></a>
+          <a class="btn" href="https://sunlogin.oray.com/download" target="_blank" rel="noopener" data-os="mac">macOS<span class="ext">↗</span></a>
         </div>
       </div>
 
@@ -200,40 +205,40 @@
       <div class="item">
         <div class="meta"><span class="name">QQ</span><span class="tag">聊天</span></div>
         <div class="dl">
-          <a class="btn" href="https://im.qq.com/pcqq/index.shtml" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://im.qq.com/macqq/index.shtml" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://im.qq.com/pcqq/index.shtml" target="_blank" rel="noopener" data-os="win">Windows<span class="ext">↗</span></a>
+          <a class="btn" href="https://im.qq.com/macqq/index.shtml" target="_blank" rel="noopener" data-os="mac">macOS<span class="ext">↗</span></a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">WPS Office</span><span class="tag">文档</span></div>
         <div class="dl">
-          <a class="btn" href="https://www.wps.cn/" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://mac.wps.cn/" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://official-package.wpscdn.cn/wps/download/WPS_Setup_17133.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://package.mac.wpscdn.cn/mac_wps_pkg/wps_installer/WPS_Office_Installer.zip" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">钉钉</span><span class="tag">协同</span></div>
         <div class="dl">
-          <a class="btn" href="https://www.dingtalk.com/download" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://www.dingtalk.com/download" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://dtapp-cast.dingtalk.com/202908242023/4090273bee39319286ee77436ca0b845/dingtalk-desktop/win_installer/Release/DingTalk_v8.2.0.260119001.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://www.dingtalk.com/download" target="_blank" rel="noopener" data-os="mac">macOS<span class="ext">↗</span></a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">飞书</span><span class="tag">协同</span></div>
         <div class="dl">
-          <a class="btn" href="https://www.feishu.cn/download" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://www.feishu.cn/download" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://sf3-cn.feishucdn.com/obj/ee-appcenter/66bd5227/Feishu-win32_x64-8.6.13-signed.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://sf3-cn.feishucdn.com/obj/ee-appcenter/60adba47/Feishu-darwin_x64-8.6.10-signed.dmg" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">腾讯会议</span><span class="tag">会议</span></div>
         <div class="dl">
-          <a class="btn" href="https://meeting.tencent.com/download" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://meeting.tencent.com/download" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://updatecdn.meeting.qq.com/7d6854f2b731cc29782bfdf6214c289e/TMRInstaller_1410000391_2.7.5.518.publish.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://updatecdn.meeting.qq.com/be87fb1d6e347b8651d1439613c62871/TMRInstaller_1410000391_2.7.5.514.publish.pkg" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
@@ -247,7 +252,7 @@
       <div class="item">
         <div class="meta"><span class="name">Chrome</span><span class="tag">浏览器</span></div>
         <div class="dl">
-          <a class="btn" href="https://www.google.cn/chrome/" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://dl.google.com/chrome/install/standalonesetup64.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
           <a class="btn" href="https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
@@ -255,32 +260,32 @@
       <div class="item">
         <div class="meta"><span class="name">百度网盘</span><span class="tag">存储</span></div>
         <div class="dl">
-          <a class="btn" href="https://pan.baidu.com/download" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://pan.baidu.com/download" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://issuepcdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_8.10.3.103.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://pkg-ant.baidu.com/issue/netdisk/MACguanjia/8.10.3/BaiduNetdisk_mac_8.10.3_x64.dmg" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">网易云音乐</span><span class="tag">音乐</span></div>
         <div class="dl">
-          <a class="btn" href="https://music.163.com/download" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://music.163.com/download" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://d8.music.126.net/dmusic2/NeteaseCloudMusic_Music_official_3.1.43.205627_64.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_3.1.14.3459.dmg" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">迅雷</span><span class="tag">下载</span></div>
         <div class="dl">
-          <a class="btn" href="https://www.xunlei.com/" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://mac.xunlei.com/" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://down.sandai.net/thunder11/XunLeiWebSetup25.1.40.1705gw.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://down.sandai.net/mac/thunder_5.80.9.66681.dmg" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
       <div class="item">
         <div class="meta"><span class="name">搜狗输入法</span><span class="tag">输入法</span></div>
         <div class="dl">
-          <a class="btn" href="https://pinyin.sogou.com/" target="_blank" rel="noopener" data-os="win">Windows</a>
-          <a class="btn" href="https://pinyin.sogou.com/mac/" target="_blank" rel="noopener" data-os="mac">macOS</a>
+          <a class="btn" href="https://ime.gtimg.com/pc/sogou_pinyin_16.10.exe" target="_blank" rel="noopener" data-os="win">Windows</a>
+          <a class="btn" href="https://ime.gtimg.com/pc/sogou_mac_625b.zip" target="_blank" rel="noopener" data-os="mac">macOS</a>
         </div>
       </div>
 
@@ -288,8 +293,8 @@
   </section>
 
   <footer>
-    所有链接均指向各软件官方域名，安装包版本由厂商随时更新。
-    <br>若某条链接失效，直接访问对应官网首页即可获取最新版本。
+    按钮直接指向厂商 CDN 上的安装包，点击即开始下载；带 ↗ 的表示厂商未提供公开直链，会打开官方下载页再点一次。
+    <br>安装包版本随厂商更新，若某条链接失效，请到对应官网获取最新版本。
   </footer>
 
 </div>
